@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Book Appointment | Zynovra Global HPV Vaccination Drive</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light custom-navbar sticky-top">
+
+<div class="container">
+
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+
+<img src="images/logo.png"
+height="60"
+class="me-3"
+alt="Zynovra Logo">
+
+<div>
+
+<h4 class="brand-title mb-0">
+
+ZYNOVRA
+
+</h4>
+
+<small class="brand-subtitle">
+
+TARGETING WHAT MATTERS
+
+</small>
+
+</div>
+
+</a>
+
+<button
+class="navbar-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#navbarNav">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div
+class="collapse navbar-collapse"
+id="navbarNav">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+
+<a class="nav-link" href="index.html">Home</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="about.html">About</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="register.html">Register</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="appointment.html">Appointment</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="hubs.html">Vaccination Hubs</a>
+
+</li>
+
+<li class="nav-item">
+
+<a class="nav-link" href="contact.html">Contact</a>
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<section class="py-5">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-10">
+
+<div class="card shadow-lg border-0">
+
+<div class="card-body p-5">
+
+<div class="text-center mb-5">
+
+<h1 class="fw-bold">
+
+Book Your Vaccination Appointment
+
+</h1>
+
+<p>
+
+Choose your preferred vaccination hub, date and time.
+
+</p>
+
+</div>
+
+<form id="appointmentForm">
+
+<div class="row">
+
+<div class="col-md-6 mb-4">
+
+<label class="form-label">
+
+Registration ID
+
+</label>
+
+<input
+type="text"
+class="form-control"
+placeholder="Example: ZYN-123456"
+required>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label class="form-label">
+
+Full Name
+
+</label>
+
+<input
+type="text"
+class="form-control"
+required>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Country
+
+</label>
+
+<select class="form-select" required>
+
+<option selected disabled>Select Country</option>
+
+<option>India</option>
+
+<option>United States</option>
+
+<option>Europe</option>
+
+<option>China</option>
+
+<option>Africa</option>
+
+<option>Iran</option>
+
+<option>Lebanon</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Vaccination Hub
+
+</label>
+
+<select class="form-select" required>
+
+<option selected disabled>Select Hub</option>
+
+<option>Bengaluru</option>
+<option>New Delhi</option>
+<option>Mumbai</option>
+<option>Chennai</option>
+<option>Hyderabad</option>
+<option>New York</option>
+<option>Los Angeles</option>
+<option>Chicago</option>
+<option>Houston</option>
+<option>London</option>
+<option>Paris</option>
+<option>Berlin</option>
+<option>Rome</option>
+<option>Beijing</option>
+<option>Shanghai</option>
+<option>Guangzhou</option>
+<option>Nairobi</option>
+<option>Lagos</option>
+<option>Johannesburg</option>
+<option>Cairo</option>
+<option>Tehran</option>
+<option>Mashhad</option>
+<option>Beirut</option>
+<option>Tripoli</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Appointment Date
+
+</label>
+
+<input
+type="date"
+class="form-control"
+min="2026-09-01"
+max="2026-09-12"
+required>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Appointment Time
+
+</label>
+
+<select class="form-select" required>
+
+<option>09:00 AM</option>
+<option>10:00 AM</option>
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>02:00 PM</option>
+<option>03:00 PM</option>
+<option>04:00 PM</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Preferred Dose
+
+</label>
+
+<select class="form-select">
+
+<option>First Dose</option>
+
+<option>Second Dose</option>
+
+<option>Booster Dose</option>
+
+</select>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label>
+
+Payment Method
+
+</label>
+
+<select class="form-select">
+
+<option>Cash</option>
+
+<option>Credit / Debit Card</option>
+
+<option>UPI</option>
+
+<option>Insurance</option>
+
+</select>
+
+</div>
+<!-- PRICE -->
+
+<div class="col-md-12 mb-4">
+
+<label class="form-label">
+
+Vaccine Cost
+
+</label>
+
+<select class="form-select">
+
+<option>India - ₹2,000</option>
+
+<option>United States - US$45</option>
+
+<option>Europe - €40</option>
+
+<option>China - ¥220 (CNY)</option>
+
+<option>Africa - US$12</option>
+
+<option>Iran - 650,000 Tomans</option>
+
+<option>Lebanon - 900,000 LBP</option>
+
+</select>
+
+</div>
+
+<hr class="my-4">
+
+<h3 class="text-primary mb-4">
+
+Appointment Summary
+
+</h3>
+
+<div class="col-md-6 mb-4">
+
+<label class="form-label">
+
+Vaccination Campaign
+
+</label>
+
+<input
+type="text"
+class="form-control"
+value="Zynovra Global HPV Vaccination Drive"
+readonly>
+
+</div>
+
+<div class="col-md-6 mb-4">
+
+<label class="form-label">
+
+Vaccine
+
+</label>
+
+<input
+type="text"
+class="form-control"
+value="PAPPISHIELD® HPV Vaccine"
+readonly>
+
+</div>
+
+<div class="col-12 mb-4">
+
+<label class="form-label">
+
+Special Requests
+
+</label>
+
+<textarea
+class="form-control"
+rows="3"
+placeholder="Optional"></textarea>
+
+</div>
+
+<div class="form-check mb-4">
+
+<input
+class="form-check-input"
+type="checkbox"
+required>
+
+<label class="form-check-label">
+
+I confirm that the information provided is correct and I agree to attend my appointment on the selected date and time.
+
+</label>
+
+</div>
+
+<div class="text-center">
+
+<button
+type="submit"
+class="btn btn-primary btn-lg px-5">
+
+Confirm Appointment
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer class="bg-primary text-white py-4">
+
+<div class="container text-center">
+
+<h4>
+
+Zynovra Global HPV Vaccination Drive
+
+</h4>
+
+<p>
+
+TARGETING WHAT MATTERS
+
+</p>
+
+<p>
+
+Campaign Dates: 1 September 2026 – 12 September 2026
+
+</p>
+
+<p>
+
+Helpline: 0423 2233393
+
+</p>
+
+<p>
+
+support@zynovra.com
+
+</p>
+
+<p>
+
+© 2026 Zynovra Biopharmaceuticals
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+<script>
+
+document.getElementById("appointmentForm").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+const appointmentID="APT-"+Math.floor(100000+Math.random()*900000);
+
+alert(
+
+"Appointment Confirmed!\n\n"
+
++
+
+"Appointment ID: "
+
++
+
+appointmentID
+
++
+
+"\n\nPlease arrive 15 minutes before your scheduled appointment."
+
+);
+
+this.reset();
+
+});
+
+</script>
+
+</body>
+
+</html>
